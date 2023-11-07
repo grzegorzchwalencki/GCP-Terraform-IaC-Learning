@@ -44,3 +44,6 @@ In this lab, I had to perform the following tasks:
     - Infrastructure updated
 
 * Task 7. Configure a firewall
+    - Firewall resource created
+
+
