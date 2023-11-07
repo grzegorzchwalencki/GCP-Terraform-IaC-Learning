@@ -37,4 +37,10 @@ In this lab, I had to perform the following tasks:
     - Infrastructure updated
 
 * Task 6. Use a module from the Registry
+    - Module "network" from Terraform Repository added to project
+    - Network configuration has been set - 2 subnets created
+    - Infrastructure updated
+    - Updated configuration resources to connect to created network - subnetwork
+    - Infrastructure updated
+
 * Task 7. Configure a firewall
