@@ -15,6 +15,7 @@ In this lab, I had to perform the following tasks:
     - Directory structure created
     - Variables added
     - Terraform block and specified provider added
+
 * Task 2. Import infrastructure
     - References to instances module added
     - Resoruce configurations to existing intances added
@@ -25,10 +26,15 @@ In this lab, I had to perform the following tasks:
     - Storage Bucket Resorce added in storage module
     - References to storage module added
     - Storage bucket as remote backed configurated
+
 * Task 4. Modify and update infrastructure
     - Modified instances resoruces 
     - New instance resource "tf-instance-new" added
     - Infrastructure updated
+
 * Task 5. Destroy resources
+    - Removed resource added in previous task
+    - Infrastructure updated
+
 * Task 6. Use a module from the Registry
 * Task 7. Configure a firewall
