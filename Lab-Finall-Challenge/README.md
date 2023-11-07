@@ -13,10 +13,16 @@ In this lab, I had to perform the following tasks:
 
 * Task 1. Create the configuration files
     - Directory structure created
-    - Added variables
-    - Added Terraform block and specified provider
-    
+    - Variables added
+    - Terraform block and specified provider added
+
 * Task 2. Import infrastructure
+    - References to module added
+    - Resoruce configurations to existing intances added
+    - Import resoruce configurations to instances module - done
+
+        terraform import module.instances.google_compute_instance.tf-instance-1 project-ID/zone/resoruce-ID
+
 * Task 3. Configure a remote backend
 * Task 4. Modify and update infrastructure
 * Task 5. Destroy resources
