@@ -45,3 +45,15 @@ module "network" {
     ]
   routing_mode = "GLOBAL"
 }
+
+resource "google_compute_firewall" "tf-firewall" {
+  name    = "tf-firewall"
+ network = "projects/qwiklabs-gcp-03-4ce76cd90578/global/networks/tf-vpc-603297"
+
+  allow {
+    protocol = "tcp"
+    ports    = ["80"]
+  }
+
+  source_ranges = ["0.0.0.0/0"]
+}
