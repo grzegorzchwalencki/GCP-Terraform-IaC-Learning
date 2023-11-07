@@ -21,7 +21,7 @@ In this lab, I had to perform the following tasks:
     - Resoruce configurations to existing intances added
     - Import resoruce configurations to instances module - done
 
-        terraform import module.instances.google_compute_instance.tf-instance-1 project-ID/zone/resoruce-ID
+          terraform import module.instances.google_compute_instance.tf-instance-1 project-ID/zone/resoruce-ID
 
 * Task 3. Configure a remote backend
 * Task 4. Modify and update infrastructure
